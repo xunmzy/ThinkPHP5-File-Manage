@@ -3,4 +3,4 @@
 
 简单的文件管理可实现在线编辑，下载，删除等操作
 
-演示地址：[http://file.xunmzy.com/admin/file](http://http://file.xunmzy.com/admin/file)
+演示地址：[http://file.xunmzy.com/admin/file](http://file.xunmzy.com/admin/file)
