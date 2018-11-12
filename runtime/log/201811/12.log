@@ -1,0 +1,1098 @@
+---------------------------------------------------------------
+[ 2018-11-12T02:34:27+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/upload/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000665s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.001349s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000599s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.000959s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000193s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000171s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000173s ]
+[ error ] [8]iconv(): Detected an incomplete multibyte character in input string
+---------------------------------------------------------------
+[ 2018-11-12T02:36:19+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/upload/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000439s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.000863s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001711s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000174s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000179s ]
+[ error ] [2]: failed to open stream: No such file or directory
+---------------------------------------------------------------
+[ 2018-11-12T02:36:22+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000541s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.000915s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.000839s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000323s ]
+[ error ] [8]getimagesize(): Read error!
+[ error ] [2]: failed to open stream: No such file or directory
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T02:36:23+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001260s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.003131s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.001413s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.006402s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.001538s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000252s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000181s ]
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T02:36:23+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000932s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.002289s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.001026s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001807s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000500s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000212s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000199s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000200s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000300s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000178s ]
+[ error ] [8]getimagesize(): Read error!
+[ error ] [2]: failed to open stream: No such file or directory
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T02:36:24+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001179s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.000979s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.000947s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000309s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000464s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000222s ]
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T02:36:24+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001548s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.004014s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000790s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.003868s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000608s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000474s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000243s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000180s ]
+[ error ] [8]getimagesize(): Read error!
+[ error ] [2]: failed to open stream: No such file or directory
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T02:36:25+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000643s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.002850s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000666s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001035s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000185s ]
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T02:36:27+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001478s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.001865s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001176s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000265s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000365s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000205s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000181s ]
+[ error ] [8]getimagesize(): Read error!
+[ error ] [2]: failed to open stream: No such file or directory
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T02:36:28+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001064s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.001574s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.000845s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000296s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000285s ]
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T02:36:28+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001122s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.002414s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.000909s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000217s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000177s ]
+[ error ] [8]getimagesize(): Read error!
+[ error ] [2]: failed to open stream: No such file or directory
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T02:37:08+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000772s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.002098s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001458s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000233s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000263s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000181s ]
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T02:37:09+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000453s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.000895s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.000936s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000242s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000185s ]
+[ error ] [8]getimagesize(): Read error!
+[ error ] [2]: failed to open stream: No such file or directory
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T02:37:10+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000641s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.001354s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000549s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.003164s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000206s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000195s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000957s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000400s ]
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T02:37:11+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001011s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.002863s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000966s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001995s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000573s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000535s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000757s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.001038s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.001113s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000593s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000183s ]
+[ error ] [8]getimagesize(): Read error!
+[ error ] [2]: failed to open stream: No such file or directory
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T02:37:15+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000486s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.000933s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001095s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000467s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000292s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000295s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000234s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000179s ]
+[ error ] [8]getimagesize(): Read error!
+[ error ] [2]: failed to open stream: No such file or directory
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T02:49:35+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000598s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.001931s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000559s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001132s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000225s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000178s ]
+[ error ] [8]getimagesize(): Read error!
+[ error ] [2]: failed to open stream: No such file or directory
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T02:49:41+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000692s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.001066s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.002878s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000701s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.001197s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000318s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000216s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000180s ]
+[ error ] [8]getimagesize(): Read error!
+[ error ] [2]: failed to open stream: No such file or directory
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T02:49:42+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000461s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.000883s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.000862s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000245s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000180s ]
+[ error ] [2]: failed to open stream: No such file or directory
+---------------------------------------------------------------
+[ 2018-11-12T02:49:43+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000473s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.001144s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001085s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000429s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000284s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000177s ]
+[ error ] [8]getimagesize(): Read error!
+[ error ] [2]: failed to open stream: No such file or directory
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T02:50:19+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000545s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.000961s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000288s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001212s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000232s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000213s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000321s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000289s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000493s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000225s ]
+[ error ] [8]iconv(): Detected an incomplete multibyte character in input string
+---------------------------------------------------------------
+[ 2018-11-12T02:59:49+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000533s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.000955s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001017s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000758s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000323s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000313s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000408s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000780s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000638s ]
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(CP936): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+---------------------------------------------------------------
+[ 2018-11-12T02:59:53+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001053s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.001573s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001023s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000293s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000204s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000491s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000222s ]
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(CP936): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+---------------------------------------------------------------
+[ 2018-11-12T02:59:55+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000875s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.001581s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000561s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001239s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000305s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000197s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000246s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000175s ]
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(CP936): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+---------------------------------------------------------------
+[ 2018-11-12T02:59:56+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000482s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.000965s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001002s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000271s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000198s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000185s ]
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(CP936): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+---------------------------------------------------------------
+[ 2018-11-12T02:59:56+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001199s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.000939s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000369s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.000874s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000251s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000238s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000191s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000180s ]
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(CP936): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+---------------------------------------------------------------
+[ 2018-11-12T02:59:56+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000499s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001742s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000209s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000301s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000177s ]
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(CP936): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+---------------------------------------------------------------
+[ 2018-11-12T03:09:56+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000479s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.001195s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001348s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000269s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000207s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000176s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000276s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000501s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000192s ]
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(CP936): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+---------------------------------------------------------------
+[ 2018-11-12T03:09:56+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000599s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.000904s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000259s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.000872s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000230s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000247s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000186s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000180s ]
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(CP936): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+---------------------------------------------------------------
+[ 2018-11-12T03:09:56+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000667s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.000942s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000235s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000227s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000201s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000249s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000178s ]
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(CP936): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+---------------------------------------------------------------
+[ 2018-11-12T03:09:57+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000486s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.000918s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000274s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001048s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.001244s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.001288s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000214s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000229s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000454s ]
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(CP936): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+[ error ] [2]getimagesize(ASCII): failed to open stream: No such file or directory
+---------------------------------------------------------------
+[ 2018-11-12T03:10:19+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000741s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.001479s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.000931s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000203s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000231s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000258s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.001039s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000859s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000620s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000580s ]
+[ error ] [8]iconv(): Detected an incomplete multibyte character in input string
+---------------------------------------------------------------
+[ 2018-11-12T03:11:01+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000788s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.001456s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001270s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000285s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000224s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000273s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000221s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000236s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000215s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000194s ]
+[ error ] [8]iconv(): Detected an illegal character in input string
+---------------------------------------------------------------
+[ 2018-11-12T03:11:01+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000454s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.000896s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000266s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.000877s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000190s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000175s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000173s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000181s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000172s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000241s ]
+[ error ] [8]iconv(): Detected an illegal character in input string
+---------------------------------------------------------------
+[ 2018-11-12T03:11:02+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000781s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.001574s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000510s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001599s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000502s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000319s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000320s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000366s ]
+[ error ] [8]iconv(): Detected an illegal character in input string
+---------------------------------------------------------------
+[ 2018-11-12T03:11:02+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000895s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.001842s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.000876s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000196s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000192s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000241s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000173s ]
+[ error ] [8]iconv(): Detected an illegal character in input string
+---------------------------------------------------------------
+[ 2018-11-12T03:11:02+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000502s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.001619s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000486s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001227s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000248s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000202s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000226s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000211s ]
+[ error ] [8]iconv(): Detected an illegal character in input string
+---------------------------------------------------------------
+[ 2018-11-12T03:11:02+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000574s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.001528s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001054s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000256s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000257s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000178s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000211s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000179s ]
+[ error ] [8]iconv(): Detected an illegal character in input string
+---------------------------------------------------------------
+[ 2018-11-12T03:11:02+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000873s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.002151s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001883s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000222s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000208s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000194s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000184s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000182s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000185s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000180s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000178s ]
+[ error ] [8]iconv(): Detected an illegal character in input string
+---------------------------------------------------------------
+[ 2018-11-12T03:11:02+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000568s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.000925s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000253s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001160s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000270s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000240s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000310s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000279s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000189s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000183s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000179s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000188s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000188s ]
+[ error ] [8]iconv(): Detected an illegal character in input string
+---------------------------------------------------------------
+[ 2018-11-12T03:11:39+08:00 ] 192.168.0.5 GET /admin/file/index.html?dirname=/data/ww/public/%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9/..
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000742s ] mysql:host=localhost;dbname=ht;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_group_access` [ RunTime:0.001381s ]
+[ sql ] [ SQL ] SELECT `auth_group_access`.`uid`,`auth_group_access`.`group_id`,`auth_group`.`title`,`auth_group`.`rules` FROM `xm_auth_group_access` `auth_group_access` INNER JOIN `xm_auth_group` `auth_group` ON `auth_group_access`.`group_id`=`auth_group`.`id` WHERE  `status` = 1  AND `auth_group_access`.`uid` = '1' [ RunTime:0.000413s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `xm_auth_rule` [ RunTime:0.001653s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 0  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 40  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 42  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 44  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 47  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 49  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 52  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 55  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SELECT * FROM `xm_auth_rule` WHERE  `pid` = 58  AND `is_menu` = 1 ORDER BY `id` ASC [ RunTime:0.000299s ]
+[ error ] [8]getimagesize(): Read error!
+[ error ] [2]: failed to open stream: No such file or directory
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T21:54:21+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9df\..
+[ error ] [2]getimagesize(E:\php\ty\public\upload): failed to open stream: Permission denied
+[ error ] [2]: failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:54:22+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9df
+[ error ] [2]: failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:54:23+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9df\upload
+[ error ] [2]: failed to open stream: Permission denied
+[ error ] [2]: failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:54:26+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9df\upload\20181019\..
+[ error ] [2]: failed to open stream: Permission denied
+[ error ] [2]: failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:54:35+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9df\upload\20181021\..
+[ error ] [2]: failed to open stream: Permission denied
+[ error ] [2]: failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:54:40+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9df\upload\20181021\..
+[ error ] [2]: failed to open stream: Permission denied
+[ error ] [2]: failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:54:41+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9df\upload\..
+[ error ] [2]: failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:54:43+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\%E6%96%B0%E5%BB%BA%E6%96%87%E4%BB%B6%E5%A4%B9df\..
+[ error ] [2]getimagesize(E:\php\ty\public\upload): failed to open stream: Permission denied
+[ error ] [2]: failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:54:45+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:54:47+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\js): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\fonts): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\lay): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\font): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\codemirror): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\images): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:54:54+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\images
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\images\face): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:55:08+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\images
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\images\face): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:55:17+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\images
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\images\face): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:55:21+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\images
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\images\face): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:55:24+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\images\..
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\js): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\fonts): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\lay): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\font): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\images): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\codemirror): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:55:26+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\..
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:55:27+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\..
+[ error ] [2]getimagesize(E:\php\ty\public\static): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\upload): failed to open stream: Permission denied
+[ error ] [2]: failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:55:30+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\..
+[ error ] [2]getimagesize(E:\php\ty\public\static): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\upload): failed to open stream: Permission denied
+[ error ] [2]: failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:55:34+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\..
+[ error ] [2]getimagesize(E:\php\ty\extend): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\app): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\runtime): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\thinkphp): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\vendor): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\linux): failed to open stream: Permission denied
+[ error ] [2]: failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:55:39+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public
+[ error ] [2]getimagesize(E:\php\ty\public\static): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\upload): failed to open stream: Permission denied
+[ error ] [2]: failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:55:59+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public
+[ error ] [2]getimagesize(E:\php\ty\public\static): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\upload): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:56:09+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\upload
+[ error ] [2]getimagesize(E:\php\ty\public\upload\20181019): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\upload\20181021): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:56:18+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\upload\20181019\..
+[ error ] [2]getimagesize(E:\php\ty\public\upload\20181019): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\upload\20181021): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:56:19+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\upload\..
+[ error ] [2]getimagesize(E:\php\ty\public\static): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\upload): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:56:23+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:56:25+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\js): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\fonts): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\lay): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\font): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\images): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\codemirror): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:56:32+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\js): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\fonts): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\lay): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\font): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\images): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\codemirror): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:56:34+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\images
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\images\face): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:56:38+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\images\face\..
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\images\face): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:56:39+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\images\..
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\js): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\fonts): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\lay): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\font): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\images): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\codemirror): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:56:42+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\font\..
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\js): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\fonts): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\lay): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\font): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\images): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\codemirror): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:56:53+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\js\..
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\js): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\fonts): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\lay): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\font): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\images): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\codemirror): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:56:57+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\fonts\..
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\js): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\fonts): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\lay): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\font): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\images): failed to open stream: Permission denied
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\codemirror): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:56:59+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\css
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css\modules): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:58:25+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\css
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css\modules): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:58:26+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\css
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css\modules): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:58:35+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\css
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css\modules): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:58:36+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\css
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css\modules): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:58:36+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\css
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css\modules): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:58:36+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\css
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css\modules): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:58:37+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\css
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css\modules): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:58:50+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\css
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css\modules): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:58:51+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\css
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css\modules): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:58:52+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\css
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css\modules): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:58:52+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\css
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css\modules): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:59:03+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\css
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css\modules): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:59:04+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\css
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css\modules): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:59:05+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\css
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css\modules): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:59:05+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\css
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css\modules): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:59:06+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\css
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css\modules): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:59:06+08:00 ] 127.0.0.1 GET /admin/file/index.html?dirname=E:\php\ty\public\static\admin\css
+[ error ] [2]getimagesize(E:\php\ty\public\static\admin\css\modules): failed to open stream: Permission denied
+---------------------------------------------------------------
+[ 2018-11-12T21:51:15+08:00 ] 192.168.0.5 GET /admin/file?dirname=/data/www/public/..
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T21:51:16+08:00 ] 192.168.0.5 GET /admin/file?dirname=/data/www/public/..
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T21:51:16+08:00 ] 192.168.0.5 GET /admin/file?dirname=/data/www/public/..
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T21:51:16+08:00 ] 192.168.0.5 GET /admin/file?dirname=/data/www/public/..
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T21:51:17+08:00 ] 192.168.0.5 GET /admin/file?dirname=/data/www/..
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T21:51:26+08:00 ] 192.168.0.5 GET /admin/file?dirname=/data/www/..
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T21:51:27+08:00 ] 192.168.0.5 GET /admin/file?dirname=/data/www/public/upload%E7%9A%84
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T21:51:29+08:00 ] 192.168.0.5 GET /admin/file?dirname=/data/www/public/upload%E7%9A%84/20181019/..
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T21:51:30+08:00 ] 192.168.0.5 GET /admin/file?dirname=/data/www/public/upload%E7%9A%84/..
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T21:51:35+08:00 ] 192.168.0.5 GET /admin/file?dirname=/data/www/public/upload%E7%9A%84
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T21:51:46+08:00 ] 192.168.0.5 GET /admin/file?dirname=/data/www/public/upload%E7%9A%84/20181021/..
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T21:51:46+08:00 ] 192.168.0.5 GET /admin/file?dirname=/data/www/public/upload%E7%9A%84/..
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T21:51:47+08:00 ] 192.168.0.5 GET /admin/file?dirname=/data/www/public/..
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T21:51:49+08:00 ] 192.168.0.5 GET /admin/file?dirname=/data/www/..
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T21:51:50+08:00 ] 192.168.0.5 GET /admin/file?dirname=/data/www/public/..
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T21:51:51+08:00 ] 192.168.0.5 GET /admin/file?dirname=/data/www/..
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
+---------------------------------------------------------------
+[ 2018-11-12T21:51:54+08:00 ] 192.168.0.5 GET /admin/file?dirname=/data/www/..
+[ error ] [8]getimagesize(): Read error!
+[ error ] [8]getimagesize(): Read error!
